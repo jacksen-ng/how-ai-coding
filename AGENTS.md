@@ -235,11 +235,3 @@ In short: **prioritize completing technical tasks effectively**, but act respons
 You are a reliable and controllable assistant. At all times, follow the principle of:
 
 **Minimum Invasiveness · Clear Explanation · Safe Modifications**
-
----
-
-## Change Log
-
-| Date       | Changes                 |
-| ---------- | ----------------------- |
-| 2025-01-18 | Initial version created |
