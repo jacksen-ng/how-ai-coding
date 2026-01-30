@@ -109,6 +109,42 @@ AGENTS.mdは意図的に英語で記述している。理由は以下の通り�
 
 これにより、後から「この機能はどう実装されているか」を理解しやすくなる。新しいメンバーのオンボーディングにも役立つ。
 
+## Claude Code を使った開発
+
+Claude Codeは、Anthropicの公式CLIツール。ターミナルから直接Claudeを使って開発できる。
+
+### 特徴
+
+| Web版 Claude | Claude Code |
+|-------------|-------------|
+| ブラウザで操作 | ターミナルで操作 |
+| ファイルは手動コピペ | 直接読み書き可能 |
+| コマンド実行不可 | git, npm等を実行可能 |
+
+### クイックスタート
+
+```bash
+# インストール
+npm install -g @anthropic-ai/claude-code
+
+# プロジェクトで起動
+cd your-project
+claude
+```
+
+### Claude Skill
+
+よく使う指示をテンプレート化して再利用できる機能。`~/.claude/skills/` に配置する。
+
+```bash
+# Skillの呼び出し
+claude /skill-name
+```
+
+詳細は [Claude Code 入門ガイド](./docs/claude-code.md) を参照。
+
+---
+
 ## 注意点
 
 - AIが生成したコードを鵜呑みにしない。必ずレビューする
