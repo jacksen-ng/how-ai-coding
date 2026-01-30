@@ -87,9 +87,9 @@ Claude Skillは、よく使う指示をテンプレート化して再利用で�
 ```
 ~/.claude/skills/
 ├── your-skill-name/
-│   └── prompt.md
+│   └── SKILL.md
 └── another-skill/
-    └── prompt.md
+    └── SKILL.md
 ```
 
 ### Skillの呼び出し方
@@ -112,10 +112,10 @@ claude /skill-name
 mkdir -p ~/.claude/skills/my-skill
 ```
 
-### Step 2: prompt.md を作成
+### Step 2: SKILL.md を作成
 
 ```bash
-touch ~/.claude/skills/my-skill/prompt.md
+touch ~/.claude/skills/my-skill/SKILL.md
 ```
 
 ### Step 3: プロンプトを記述
